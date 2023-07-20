@@ -1,0 +1,13 @@
+[package]
+name = "package_module_rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "package_all"
+path = "src/package_all/main.rs"
+[[bin]]
+name = "package_modules"
+path = "src/package_modules/main.rs"
+
+[dependencies]
